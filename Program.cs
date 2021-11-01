@@ -49,6 +49,40 @@ namespace DotNetEFLAB
                         logger.Info("Blog added - {name}", name);
                     }
                 }
+                else if(choice == "3"){
+                    var query = db.Blogs.OrderBy(b => b.BlogId);
+                    int blogChoice;
+                    Console.WriteLine("\nSelect the blog you want to post to:");
+                    foreach (var item in query)
+                    {
+                        Console.WriteLine(item.BlogId+") " + item.Name);
+                    }
+                    blogChoice = Convert.ToInt32(Console.ReadLine());
+                    
+                    try{
+                        foreach (var item in query)
+                        {
+                            if (item.BlogId == blogChoice){
+                                Console.Write("Enter the Post title: ");
+                                var title = Console.ReadLine();
+                                Console.Write("Enter the Post content: ");
+                                var content = Console.ReadLine();
+
+                                var post = new Post { Title = title, Content = content };
+
+                                db.AddPost(post);
+                                logger.Info("Post added - {title}", title);
+                            }
+                        }   
+                    }catch (Exception ex){
+                        logger.Error(ex.Message);
+                    }
+                }
+                else if(choice == "4")
+                {
+                    
+
+                }
 
             }while(choice == "1" || choice == "2" || choice == "3" || choice == "4");
 
