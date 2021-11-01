@@ -1,0 +1,38 @@
+2021-10-25 08:29:01.5469|INFO|DotNetEFLAB.Program|Program started
+2021-10-25 08:30:01.6440|ERROR|DotNetEFLAB.Program|A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2021-10-25 08:30:01.6510|INFO|DotNetEFLAB.Program|Program ended
+2021-10-25 08:43:16.9553|INFO|DotNetEFLAB.Program|Program started
+2021-10-25 08:44:03.4911|ERROR|DotNetEFLAB.Program|A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2021-10-25 08:44:03.4972|INFO|DotNetEFLAB.Program|Program ended
+2021-10-25 08:45:44.4236|INFO|DotNetEFLAB.Program|Program started
+2021-10-25 08:46:30.1172|ERROR|DotNetEFLAB.Program|A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2021-10-25 08:46:30.1247|INFO|DotNetEFLAB.Program|Program ended
+2021-10-25 08:46:55.6449|INFO|DotNetEFLAB.Program|Program started
+2021-10-25 08:47:48.9770|ERROR|DotNetEFLAB.Program|A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2021-10-25 08:47:48.9846|INFO|DotNetEFLAB.Program|Program ended
+2021-10-25 08:48:26.7838|INFO|DotNetEFLAB.Program|Program started
+2021-10-25 08:49:20.9500|ERROR|DotNetEFLAB.Program|A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2021-10-25 08:49:20.9500|INFO|DotNetEFLAB.Program|Program ended
+2021-10-25 08:59:06.3465|INFO|DotNetEFLAB.Program|Program started
+2021-10-25 08:59:54.9759|ERROR|DotNetEFLAB.Program|A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2021-10-25 08:59:54.9796|INFO|DotNetEFLAB.Program|Program ended
+2021-10-25 09:19:16.1891|INFO|DotNetEFLAB.Program|Program started
+2021-10-25 09:19:24.2863|ERROR|DotNetEFLAB.Program|Login failed for user 'YYY'.
+2021-10-25 09:19:24.2863|INFO|DotNetEFLAB.Program|Program ended
+2021-10-25 09:20:48.3774|INFO|DotNetEFLAB.Program|Program started
+2021-10-25 09:20:56.1767|INFO|DotNetEFLAB.Program|Blog added - "TestBlog"
+2021-10-25 09:20:56.6990|INFO|DotNetEFLAB.Program|Program ended
+2021-11-01 12:58:05.3408|INFO|DotNetEFLAB.Program|Program ended
+2021-11-01 12:58:11.2858|INFO|DotNetEFLAB.Program|Program started
+2021-11-01 13:06:33.1938|INFO|DotNetEFLAB.Program|Program started
+2021-11-01 13:06:49.3671|INFO|DotNetEFLAB.Program|Program started
+2021-11-01 13:09:06.9141|INFO|DotNetEFLAB.Program|Program ended
+2021-11-01 13:09:11.2898|INFO|DotNetEFLAB.Program|Program started
+2021-11-01 13:09:24.8272|INFO|DotNetEFLAB.Program|Program started
+2021-11-01 13:10:27.9678|INFO|DotNetEFLAB.Program|Program started
+2021-11-01 13:10:50.0688|INFO|DotNetEFLAB.Program|Blog added - "TestBlog2"
+2021-11-01 13:11:05.2032|INFO|DotNetEFLAB.Program|Program ended
+2021-11-01 13:13:51.5336|INFO|DotNetEFLAB.Program|Program started
+2021-11-01 13:36:35.1688|INFO|DotNetEFLAB.Program|Program ended
+2021-11-01 13:47:17.1203|INFO|DotNetEFLAB.Program|Program started
+2021-11-01 13:47:26.8300|INFO|DotNetEFLAB.Program|Program ended
