@@ -42,3 +42,44 @@
 2021-11-01 16:39:18.6128|INFO|DotNetEFLAB.Program|Program ended
 2021-11-01 16:39:40.2646|INFO|DotNetEFLAB.Program|Program started
 2021-11-01 16:40:04.2615|INFO|DotNetEFLAB.Program|Program ended
+2021-11-02 14:56:17.2766|INFO|DotNetEFLAB.Program|Program started
+2021-11-02 14:57:53.4313|ERROR|DotNetEFLAB.Program|There is already an open DataReader associated with this Connection which must be closed first.
+2021-11-02 14:58:19.0830|INFO|DotNetEFLAB.Program|Program ended
+2021-11-02 14:58:30.1271|INFO|DotNetEFLAB.Program|Program started
+2021-11-02 14:59:02.7007|INFO|DotNetEFLAB.Program|Program started
+2021-11-02 14:59:34.3455|ERROR|DotNetEFLAB.Program|There is already an open DataReader associated with this Connection which must be closed first.
+2021-11-02 14:59:40.8358|INFO|DotNetEFLAB.Program|Program ended
+2021-11-02 15:04:58.4178|INFO|DotNetEFLAB.Program|Program started
+2021-11-02 15:05:11.2933|INFO|DotNetEFLAB.Program|Blog added - "TestBlog3"
+2021-11-02 15:05:25.7361|INFO|DotNetEFLAB.Program|Program ended
+2021-11-02 15:07:27.4299|INFO|DotNetEFLAB.Program|Program started
+2021-11-02 15:09:26.2426|ERROR|DotNetEFLAB.Program|There is already an open DataReader associated with this Connection which must be closed first.
+2021-11-02 15:09:29.9132|INFO|DotNetEFLAB.Program|Program ended
+2021-11-02 15:10:48.8337|INFO|DotNetEFLAB.Program|Program started
+2021-11-02 15:11:08.8342|ERROR|DotNetEFLAB.Program|An error occurred while updating the entries. See the inner exception for details.
+2021-11-02 15:11:17.0650|INFO|DotNetEFLAB.Program|Program ended
+2021-11-02 15:12:50.4548|INFO|DotNetEFLAB.Program|Program started
+2021-11-02 15:13:15.8329|ERROR|DotNetEFLAB.Program|There is already an open DataReader associated with this Connection which must be closed first.
+2021-11-02 15:13:18.5337|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 13:05:17.5296|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 13:05:39.2137|INFO|DotNetEFLAB.Program|Blog added - "TestBlog4"
+2021-11-03 13:06:25.0571|ERROR|DotNetEFLAB.Program|There is already an open DataReader associated with this Connection which must be closed first.
+2021-11-03 13:06:35.5964|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 13:12:06.0625|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 13:14:12.3142|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 13:14:14.8988|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 13:14:31.0419|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 13:14:52.2173|INFO|DotNetEFLAB.Program|Post added - "Puppies are awesome!"
+2021-11-03 13:15:04.0141|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 13:18:46.0027|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 13:19:16.7955|INFO|DotNetEFLAB.Program|Post added - "test"
+2021-11-03 13:19:34.5335|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 13:32:14.6909|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 13:40:01.3827|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:09:46.1990|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 14:09:54.4116|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:10:25.9143|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 14:10:39.8550|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:11:12.5165|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 14:11:17.4611|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:11:45.4219|INFO|DotNetEFLAB.Program|Program ended
