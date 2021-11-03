@@ -24,12 +24,13 @@ namespace DotNetEFLAB
                 Console.WriteLine("4) Display Posts");
                 Console.WriteLine("Enter any other key to exit.");
                 choice = Console.ReadLine();
+                logger.Info("User choice: " + choice);
 
                 if (choice == "1"){
                     // Display all Blogs from the database
                     var query = db.Blogs.OrderBy(b => b.Name);
                     Console.WriteLine("");
-                    Console.WriteLine((query.Count()-1)+" Blogs returned:");
+                    Console.WriteLine((query.Count()-1)+" Blogs returned:"); // I have the count -1 because i'm embaressed about the empty database i created during testing
                     foreach (var item in query)
                     {
                         Console.WriteLine(item.Name);
@@ -39,11 +40,11 @@ namespace DotNetEFLAB
                     // Create and save a new Blog
                     Console.Write("Enter a name for a new Blog: ");
                     var name = Console.ReadLine();
-                    if(name == null || name == ""){
-                        throw new Exception("Blog name cannot be null");
+                    if(String.IsNullOrEmpty(name)){
+                        logger.Error("Blog name cannot be null"); // If the name is empty or null, it'll log an error
                     }
                     else{
-                        var blog = new Blog { Name = name };
+                        var blog = new Blog { Name = name }; // If name is NOT null, adds the new blog
 
                         db.AddBlog(blog);
                         logger.Info("Blog added - {name}", name);
@@ -51,30 +52,41 @@ namespace DotNetEFLAB
                 }
                 else if(choice == "3"){
                     var query = db.Blogs.OrderBy(b => b.BlogId);
-                    int blogChoice;
-                    Console.WriteLine("\nSelect the blog you want to post to:");
+                    string blogChoice2;
+                    Console.WriteLine("\nSelect the blog you want to post to:"); // Displays every blog and asks for the ID
                     foreach (var item in query)
                     {
                         Console.WriteLine(item.BlogId+") " + item.Name);
                     }
-                    blogChoice = Convert.ToInt32(Console.ReadLine());
-                    var isValidBlogId = db.Blogs.Any(b => b.BlogId == blogChoice);
-                    if (isValidBlogId) 
-                    {
-                        Console.Write("Enter the Post title: ");
-                        var title = Console.ReadLine();
-                        Console.Write("Enter the Post content: ");
-                        var content = Console.ReadLine();
+                    blogChoice2 = Console.ReadLine();
+                    if (String.IsNullOrEmpty(blogChoice2)){
+                            logger.Error("Invalid Blog id"); // logs an error if the blog id is invalid
+                        }
+                    else{
+                        int blogChoice = Convert.ToInt32(blogChoice2);
+                        var isValidBlogId = db.Blogs.Any(b => b.BlogId == blogChoice);
+                        if (isValidBlogId) // if the ID is valid, allows you to enter a new post
+                        {
+                            Console.Write("Enter the Post title: ");
+                            var title = Console.ReadLine();
 
-                        var post = new Post { Title = title, Content = content, BlogId = blogChoice };
+                            if (String.IsNullOrEmpty(title)){
+                                logger.Error("Post title cannot be null"); // logs an error if the title is empty
+                            }
+                            else
+                            {
+                                Console.Write("Enter the Post content: "); // content is allowed to be empty
+                                var content = Console.ReadLine();
 
-                        db.AddPost(post);
-                        logger.Info("Post added - {title}", title);
-                    } else {
-                        // TODO: invalid blog id
-                        Console.WriteLine("invalid blog id");
-                    }
-                    
+                                var post = new Post { Title = title, Content = content, BlogId = blogChoice };
+
+                                db.AddPost(post);
+                                logger.Info("Post added - {title}", title);
+                            }
+                        } else {
+                        logger.Error("No blogs saved with that ID"); // If the selection they entered is an invalid ID, error occurs
+                        }
+                    } 
                 }
                 else if(choice == "4")
                 {
@@ -110,11 +122,14 @@ namespace DotNetEFLAB
                             Console.WriteLine("Content: " + ps.Content+"\n");
                         }
                     }
+                    else{
+                        logger.Error("Invalid input");
+                    }
                 }
 
             }while(choice == "1" || choice == "2" || choice == "3" || choice == "4");
 
-            logger.Info("Program ended");
+            logger.Info("Program ended"); // logs when the program has ended
         }
     }
 }

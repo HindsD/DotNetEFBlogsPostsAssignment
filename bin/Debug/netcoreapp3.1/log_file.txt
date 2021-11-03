@@ -83,3 +83,57 @@
 2021-11-03 14:11:12.5165|INFO|DotNetEFLAB.Program|Program ended
 2021-11-03 14:11:17.4611|INFO|DotNetEFLAB.Program|Program started
 2021-11-03 14:11:45.4219|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 14:33:44.5695|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:33:46.5074|INFO|DotNetEFLAB.Program|User choice: 1
+2021-11-03 14:33:53.2488|INFO|DotNetEFLAB.Program|User choice: 2
+2021-11-03 14:33:54.5816|ERROR|DotNetEFLAB.Program|Blog name cannot be null
+2021-11-03 14:33:59.1886|INFO|DotNetEFLAB.Program|User choice: 1
+2021-11-03 14:34:02.9387|INFO|DotNetEFLAB.Program|User choice: 
+2021-11-03 14:34:02.9387|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 14:35:43.1327|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:35:44.5211|INFO|DotNetEFLAB.Program|User choice: 2
+2021-11-03 14:35:45.4414|ERROR|DotNetEFLAB.Program|Blog name cannot be null
+2021-11-03 14:35:50.0393|INFO|DotNetEFLAB.Program|User choice: 1
+2021-11-03 14:35:55.8970|INFO|DotNetEFLAB.Program|User choice: 
+2021-11-03 14:35:55.8987|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 14:48:11.4277|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:48:19.2554|INFO|DotNetEFLAB.Program|User choice: 3
+2021-11-03 14:48:29.7074|ERROR|DotNetEFLAB.Program|Post title cannot be null
+2021-11-03 14:48:43.0906|INFO|DotNetEFLAB.Program|User choice: 3
+2021-11-03 14:48:44.9553|ERROR|DotNetEFLAB.Program|Invalid Blog id
+2021-11-03 14:48:57.0013|INFO|DotNetEFLAB.Program|User choice: 1
+2021-11-03 14:49:13.2243|INFO|DotNetEFLAB.Program|User choice: 2
+2021-11-03 14:49:15.6362|ERROR|DotNetEFLAB.Program|Blog name cannot be null
+2021-11-03 14:49:21.2531|INFO|DotNetEFLAB.Program|User choice: 3
+2021-11-03 14:49:46.8980|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:49:51.0398|INFO|DotNetEFLAB.Program|User choice: 4
+2021-11-03 14:50:03.5772|INFO|DotNetEFLAB.Program|User choice: 4
+2021-11-03 14:50:15.1916|INFO|DotNetEFLAB.Program|User choice: 
+2021-11-03 14:50:15.1916|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 14:51:39.9742|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:51:45.2942|INFO|DotNetEFLAB.Program|User choice: 3
+2021-11-03 14:51:49.0192|ERROR|DotNetEFLAB.Program|Invalid Blog id
+2021-11-03 14:51:55.0053|INFO|DotNetEFLAB.Program|User choice: 3
+2021-11-03 14:51:58.6206|ERROR|DotNetEFLAB.Program|Post title cannot be null
+2021-11-03 14:52:02.8259|INFO|DotNetEFLAB.Program|User choice: 2
+2021-11-03 14:52:04.1635|ERROR|DotNetEFLAB.Program|Blog name cannot be null
+2021-11-03 14:52:08.0053|INFO|DotNetEFLAB.Program|User choice: 4
+2021-11-03 14:52:20.3041|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:52:22.1065|INFO|DotNetEFLAB.Program|User choice: 3
+2021-11-03 14:55:10.9446|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:55:12.3485|INFO|DotNetEFLAB.Program|User choice: 3
+2021-11-03 14:57:14.4915|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:57:16.4863|INFO|DotNetEFLAB.Program|User choice: 3
+2021-11-03 14:57:19.0012|ERROR|DotNetEFLAB.Program|Post title cannot be null
+2021-11-03 14:59:16.4380|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 14:59:17.5548|INFO|DotNetEFLAB.Program|User choice: 3
+2021-11-03 14:59:20.1748|ERROR|DotNetEFLAB.Program|Post title cannot be null
+2021-11-03 15:00:50.9474|INFO|DotNetEFLAB.Program|User choice: 
+2021-11-03 15:00:50.9474|INFO|DotNetEFLAB.Program|Program ended
+2021-11-03 15:00:55.9758|INFO|DotNetEFLAB.Program|Program started
+2021-11-03 15:00:57.2883|INFO|DotNetEFLAB.Program|User choice: 3
+2021-11-03 15:01:00.3402|ERROR|DotNetEFLAB.Program|Invalid Blog id
+2021-11-03 15:01:03.0795|INFO|DotNetEFLAB.Program|User choice: 3
+2021-11-03 15:01:05.2277|ERROR|DotNetEFLAB.Program|No blogs saved with that ID
+2021-11-03 15:01:08.4498|INFO|DotNetEFLAB.Program|User choice: 
+2021-11-03 15:01:08.4498|INFO|DotNetEFLAB.Program|Program ended
